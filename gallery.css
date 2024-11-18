@@ -1,0 +1,45 @@
+body {
+    background-color: #f1faf5;
+  }
+  .gallery {
+    background-color: #082c2c;
+    align-items: flex-start;
+    margin: 10px;
+    margin-bottom: 40px;
+  }
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+   
+    z-index: 1;
+  }
+  .gallery-item {
+    padding: 15px;
+  }
+  .slider {
+    
+       width: 100px;
+    height:10px ;
+    
+   
+    
+  }
+  
+  .slick-prev, .slick-next {
+    font-size: 24px;
+  }
+  .gallery-item > img {
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+  }
+  
+  .gallery-item img:hover {
+    transform: scale(1.1);
+  }
+  
+  .pic1 {
+    height: 100% !important;
+  }
